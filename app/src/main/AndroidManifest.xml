@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.taro_sukdeo.mobilemarket2">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <meta-data
+                android:name="com.parse.SERVER_URL"
+                android:value="http://mobilemarket2.herokuapp.com/parse"/>
+        <meta-data
+                android:name="com.parse.APPLICATION_ID"
+                android:value="uagsfuygaulagahbgla"/>
+
+        <activity android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".postNewAd">
+        </activity>
+        <activity android:name=".myProfile">
+        </activity>
+        <activity android:name=".SingleItem">
+        </activity>
+    </application>
+
+</manifest>

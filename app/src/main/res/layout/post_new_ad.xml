@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Item Name"
+            android:ems="10"
+            android:id="@+id/postitemName"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Item Description"
+            android:ems="10"
+            android:id="@+id/postitemDescription"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="itemPrice"
+            android:ems="10"
+            android:id="@+id/postitemPrice"/>
+    <Button
+            android:text="Post Ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postAd"
+            android:clickable="true"/>
+</LinearLayout>

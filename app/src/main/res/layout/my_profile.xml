@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="My Profile"
+            android:layout_width="match_parent"
+            android:layout_height="100dip" android:id="@+id/textView6" android:textSize="24sp"
+            android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/mobilemarket" android:id="@+id/imageView2"/>
+    <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:id="@+id/viewUserName"
+            android:layout_gravity="center" android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="sans-serif" android:textSize="18sp"/>
+    <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:id="@+id/viewFullName" android:textSize="18sp"/>
+    <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:id="@+id/viewPhoneNumber" android:textSize="18sp"/>
+    <Button
+            android:text="LOG OUT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/logout"
+            android:backgroundTint="@android:color/holo_blue_bright"/>
+</LinearLayout>
